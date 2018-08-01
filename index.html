@@ -26,6 +26,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -349,7 +356,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="xueyya">
       <meta itemprop="description" content="做自己爱做的事，爱自己在做的事！">
-      <meta itemprop="image" content="/images/avatar.jpeg">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -407,7 +414,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-30 14:32:36" itemprop="dateModified" datetime="2018-07-30T14:32:36+08:00">2018-07-30</time>
+                <time title="修改时间：2018-08-01 09:18:34" itemprop="dateModified" datetime="2018-08-01T09:18:34+08:00">2018-08-01</time>
               
             
           </span>
@@ -504,28 +511,14 @@ hexo d -g #生成并上传
 2.修改next主题的模板文件
     theme/next/layout/_partials/footer.swig
     我们在合适的位置加入：
-        {% if theme.footer.counter %}
-				<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.footer.counter %&#125;</span><br><span class="line">	&lt;script async src=&quot;//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">	&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;总访问量&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;次&lt;/span&gt;</span><br><span class="line">	&lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line">	&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;总访客&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;人&lt;/span&gt;</span><br><span class="line">	&lt;span class=&quot;post-meta-divider&quot;&gt;|&lt;/span&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
 
-				<span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-				<span class="post-meta-divider">|</span>
-				<span id="busuanzi_container_site_uv">总访客<span id="busuanzi_value_site_uv"></span>人</span>
-				<span class="post-meta-divider">|</span>
-
-			{% endif %}
 3.不蒜子有两种统计方法：
     1.pv的方式，单个用户连续点击n篇文章，记录n次访问量
-        &lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;
-            总访问量
-            &lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;
-            次
-        &lt;/span&gt;
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">	总访问量</span><br><span class="line">	&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;</span><br><span class="line">	次</span><br><span class="line">&lt;/span&gt;</span><br></pre></td></tr></table></figure>
+
     2.uv的方式，单个用户连续点击n篇文章，只记录1次访客数
-        &lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;
-            总访客
-            &lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;
-            人
-        &lt;/span&gt;
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;</span><br><span class="line">	总访客</span><br><span class="line">	&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;</span><br><span class="line">	人</span><br><span class="line">&lt;/span&gt;</span><br></pre></td></tr></table></figure>
 </code></pre>
           
         
@@ -597,7 +590,7 @@ hexo d -g #生成并上传
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/images/avatar.jpeg"
+                src="/images/avatar.jpg"
                 alt="xueyya" />
             
               <p class="site-author-name" itemprop="name">xueyya</p>
@@ -710,21 +703,25 @@ hexo d -g #生成并上传
 
 
 
-<!-- 在网站底部加上访问量和字数 -->
 
-	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	<i class="fa fa-eye"></i>
-	<span id="busuanzi_container_site_pv">总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+	<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<span class="site-pv" title="总访问量">
+		<i class="fa fa-eye"></i>
+		<span class="busuanzi-value" id="busuanzi_container_site_pv">总访问量：<span id="busuanzi_value_site_pv"></span>次</span>
+	</span>
 	<span class="post-meta-divider">|</span>
-	<i class="fa fa-user-md"></i>
-	<span id="busuanzi_container_site_uv">总访客：<span id="busuanzi_value_site_uv"></span>人</span>
+	<span class="site-uv" title="总访客">
+		<i class="fa fa-user-md"></i>
+		<span class="busuanzi-value" id="busuanzi_container_site_uv">总访客：<span id="busuanzi_value_site_uv"></span>人</span>
+	</span>
 	<span class="post-meta-divider">|</span>
 
 
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">博客全站共1.0k字</span>
-</div>
+
+
+
+
+
 
 
 
