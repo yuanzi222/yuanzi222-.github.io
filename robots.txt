@@ -10,5 +10,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://yuanzi222.com/sitemap.xml
-Sitemap: https://yuanzi222.com/baidusitemap.xml
+Sitemap: https://www.yuanzi222.com/sitemap.xml
+Sitemap: https://www.yuanzi222.com/baidusitemap.xml
