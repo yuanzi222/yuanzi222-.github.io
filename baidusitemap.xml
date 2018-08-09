@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>https://yuanzi222.com/Eclipse%E6%8A%A4%E7%9C%BC%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html</loc>
+    <lastmod>2018-08-09T02:53:56.434Z</lastmod>
+    <data>
+        <display>
+        <title>Eclipse护眼背景设置</title>
+        <pubTime>2016-07-21T03:26:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://yuanzi222.com/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://yuanzi222.com/%E7%96%AF%E7%8B%82%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98.html</loc>
+    <lastmod>2018-08-09T02:53:56.411Z</lastmod>
+    <data>
+        <display>
+        <title>疯狂的程序员</title>
+        <pubTime>2017-05-21T03:26:12.000Z</pubTime>
+        
+        <tag>随笔</tag>
+         
+         
+           
+             
+              <breadCrumb title="读书笔记" url="https://yuanzi222.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://yuanzi222.com/%E4%BD%BF%E7%94%A8Hexo+Github%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html</loc>
+    <lastmod>2018-08-09T02:53:56.375Z</lastmod>
+    <data>
+        <display>
+        <title>使用Hexo+Github一步步搭建属于自己的博客</title>
+        <pubTime>2018-07-21T03:26:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://yuanzi222.com/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://yuanzi222.com/Win10%E6%8A%A4%E7%9C%BC%E8%89%B2%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html</loc>
     <lastmod>2018-08-03T06:49:07.617Z</lastmod>
     <data>
@@ -45,24 +105,4 @@
     
     
     
-    
-  <url>
-    <loc>https://yuanzi222.com/%E4%BD%BF%E7%94%A8Hexo+Github%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html</loc>
-    <lastmod>2018-08-01T01:41:44.718Z</lastmod>
-    <data>
-        <display>
-        <title>使用Hexo+Github一步步搭建属于自己的博客</title>
-        <pubTime>2018-07-21T03:26:12.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo" url="https://yuanzi222.com/categories/hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>
