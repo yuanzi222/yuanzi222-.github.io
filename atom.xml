@@ -253,6 +253,31 @@
   </entry>
   
   <entry>
+    <title>Win10护眼色背景设置</title>
+    <link href="https://yuanzi222.com/Win10%E6%8A%A4%E7%9C%BC%E8%89%B2%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
+    <id>https://yuanzi222.com/Win10护眼色背景设置.html</id>
+    <published>2017-07-21T03:26:12.000Z</published>
+    <updated>2019-12-25T09:48:53.526Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Win10护眼色背景设置"><a href="#Win10护眼色背景设置" class="headerlink" title="Win10护眼色背景设置"></a>Win10护眼色背景设置</h1><p>将以下内容复制到文本文档并保存为.bat文件运行即可:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKCU\Control Panel\Colors&quot; /v Window /t REG_SZ /d &quot;202 234 206&quot; /f</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Win10护眼色背景设置&quot;&gt;&lt;a href=&quot;#Win10护眼色背景设置&quot; class=&quot;headerlink&quot; title=&quot;Win10护眼色背景设置&quot;&gt;&lt;/a&gt;Win10护眼色背景设置&lt;/h1&gt;&lt;p&gt;将以下内容复制到文本文档并保存为.bat文件运行即可:&lt;/p
+      
+    
+    </summary>
+    
+      <category term="Windows" scheme="https://yuanzi222.com/categories/Windows/"/>
+    
+    
+      <category term="Win10" scheme="https://yuanzi222.com/tags/Win10/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CMD一键获取所有连接过的WIFI密码</title>
     <link href="https://yuanzi222.com/CMD%E4%B8%80%E9%94%AE%E8%8E%B7%E5%8F%96%E6%89%80%E6%9C%89%E8%BF%9E%E6%8E%A5%E8%BF%87%E7%9A%84WIFI%E5%AF%86%E7%A0%81.html"/>
     <id>https://yuanzi222.com/CMD一键获取所有连接过的WIFI密码.html</id>
@@ -275,31 +300,6 @@
     
     
       <category term="Windows" scheme="https://yuanzi222.com/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Win10护眼色背景设置</title>
-    <link href="https://yuanzi222.com/Win10%E6%8A%A4%E7%9C%BC%E8%89%B2%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
-    <id>https://yuanzi222.com/Win10护眼色背景设置.html</id>
-    <published>2017-07-21T03:26:12.000Z</published>
-    <updated>2019-12-25T09:48:53.526Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Win10护眼色背景设置"><a href="#Win10护眼色背景设置" class="headerlink" title="Win10护眼色背景设置"></a>Win10护眼色背景设置</h1><p>将以下内容复制到文本文档并保存为.bat文件运行即可:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKCU\Control Panel\Colors&quot; /v Window /t REG_SZ /d &quot;202 234 206&quot; /f</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Win10护眼色背景设置&quot;&gt;&lt;a href=&quot;#Win10护眼色背景设置&quot; class=&quot;headerlink&quot; title=&quot;Win10护眼色背景设置&quot;&gt;&lt;/a&gt;Win10护眼色背景设置&lt;/h1&gt;&lt;p&gt;将以下内容复制到文本文档并保存为.bat文件运行即可:&lt;/p
-      
-    
-    </summary>
-    
-      <category term="Windows" scheme="https://yuanzi222.com/categories/Windows/"/>
-    
-    
-      <category term="Win10" scheme="https://yuanzi222.com/tags/Win10/"/>
     
   </entry>
   
@@ -331,31 +331,6 @@
   </entry>
   
   <entry>
-    <title>Eclipse护眼背景设置</title>
-    <link href="https://yuanzi222.com/Eclipse%E6%8A%A4%E7%9C%BC%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
-    <id>https://yuanzi222.com/Eclipse护眼背景设置.html</id>
-    <published>2016-07-21T03:26:12.000Z</published>
-    <updated>2019-12-25T09:41:57.259Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Eclipse护眼背景设置"><a href="#Eclipse护眼背景设置" class="headerlink" title="Eclipse护眼背景设置"></a>Eclipse护眼背景设置</h1><p>Windows -&gt; Preference -&gt; General -&gt; Editors -&gt; Test Editors右下角Appearance color options，选中background color，勾掉System Default，点击’color’颜色块，设置为：色调：85。饱和度：123。亮度：205 即可，据说长时间使用可以缓解眼疲劳哦。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Eclipse护眼背景设置&quot;&gt;&lt;a href=&quot;#Eclipse护眼背景设置&quot; class=&quot;headerlink&quot; title=&quot;Eclipse护眼背景设置&quot;&gt;&lt;/a&gt;Eclipse护眼背景设置&lt;/h1&gt;&lt;p&gt;Windows -&amp;gt; Preference -
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
-    
-    
-      <category term="Eclipse" scheme="https://yuanzi222.com/tags/Eclipse/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用Hexo+Github一步步搭建属于自己的博客</title>
     <link href="https://yuanzi222.com/%E4%BD%BF%E7%94%A8Hexo+Github%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html"/>
     <id>https://yuanzi222.com/使用Hexo+Github一步步搭建属于自己的博客.html</id>
@@ -377,6 +352,31 @@
     
     
       <category term="Hexo" scheme="https://yuanzi222.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eclipse护眼背景设置</title>
+    <link href="https://yuanzi222.com/Eclipse%E6%8A%A4%E7%9C%BC%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
+    <id>https://yuanzi222.com/Eclipse护眼背景设置.html</id>
+    <published>2016-07-21T03:26:12.000Z</published>
+    <updated>2019-12-25T09:41:57.259Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Eclipse护眼背景设置"><a href="#Eclipse护眼背景设置" class="headerlink" title="Eclipse护眼背景设置"></a>Eclipse护眼背景设置</h1><p>Windows -&gt; Preference -&gt; General -&gt; Editors -&gt; Test Editors右下角Appearance color options，选中background color，勾掉System Default，点击’color’颜色块，设置为：色调：85。饱和度：123。亮度：205 即可，据说长时间使用可以缓解眼疲劳哦。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Eclipse护眼背景设置&quot;&gt;&lt;a href=&quot;#Eclipse护眼背景设置&quot; class=&quot;headerlink&quot; title=&quot;Eclipse护眼背景设置&quot;&gt;&lt;/a&gt;Eclipse护眼背景设置&lt;/h1&gt;&lt;p&gt;Windows -&amp;gt; Preference -
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="Eclipse" scheme="https://yuanzi222.com/tags/Eclipse/"/>
     
   </entry>
   
