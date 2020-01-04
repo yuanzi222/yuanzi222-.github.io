@@ -350,32 +350,6 @@
   </entry>
   
   <entry>
-    <title>Eclipse护眼背景设置</title>
-    <link href="https://yuanzi222.com/Eclipse%E6%8A%A4%E7%9C%BC%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
-    <id>https://yuanzi222.com/Eclipse护眼背景设置.html</id>
-    <published>2016-07-21T03:26:12.000Z</published>
-    <updated>2020-01-02T03:28:22.323Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Windows -&amp;gt; Preference -&amp;gt; General -&amp;gt; Editors -&amp;gt; Test Editors右下角Appearance color options，选中background color，勾掉System
-        
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
-    
-    
-      <category term="Eclipse" scheme="https://yuanzi222.com/tags/Eclipse/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用Hexo+Github一步步搭建属于自己的博客</title>
     <link href="https://yuanzi222.com/%E4%BD%BF%E7%94%A8Hexo+Github%E4%B8%80%E6%AD%A5%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2.html"/>
     <id>https://yuanzi222.com/使用Hexo+Github一步步搭建属于自己的博客.html</id>
@@ -398,6 +372,32 @@
     
     
       <category term="Hexo" scheme="https://yuanzi222.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eclipse护眼背景设置</title>
+    <link href="https://yuanzi222.com/Eclipse%E6%8A%A4%E7%9C%BC%E8%83%8C%E6%99%AF%E8%AE%BE%E7%BD%AE.html"/>
+    <id>https://yuanzi222.com/Eclipse护眼背景设置.html</id>
+    <published>2016-07-21T03:26:12.000Z</published>
+    <updated>2020-01-02T03:28:22.323Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Windows -&amp;gt; Preference -&amp;gt; General -&amp;gt; Editors -&amp;gt; Test Editors右下角Appearance color options，选中background color，勾掉System
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="Eclipse" scheme="https://yuanzi222.com/tags/Eclipse/"/>
     
   </entry>
   
