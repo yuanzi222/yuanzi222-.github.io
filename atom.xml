@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yuanzi222.com/"/>
-  <updated>2020-01-04T08:44:14.362Z</updated>
+  <updated>2020-01-07T08:51:01.495Z</updated>
   <id>https://yuanzi222.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot整合阿里RocketMQ</title>
+    <link href="https://yuanzi222.com/SpringBoot%E6%95%B4%E5%90%88%E9%98%BF%E9%87%8CRocketMQ.html"/>
+    <id>https://yuanzi222.com/SpringBoot整合阿里RocketMQ.html</id>
+    <published>2019-12-12T07:17:12.000Z</published>
+    <updated>2020-01-07T08:51:01.495Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Git仓库地址&lt;/strong&gt;：&lt;a href=&quot;https://github.com/yuanzi222/rocketmq-service.git&quot; rel=&quot;external nofollow noopener
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="SrpingBoot" scheme="https://yuanzi222.com/tags/SrpingBoot/"/>
+    
+      <category term="RocketMQ" scheme="https://yuanzi222.com/tags/RocketMQ/"/>
+    
+  </entry>
   
   <entry>
     <title>分布式锁</title>
@@ -75,7 +104,7 @@
     <link href="https://yuanzi222.com/Eureka%E6%AF%94Zookeeper%E5%A5%BD%E5%9C%A8%E5%93%AA%E9%87%8C.html"/>
     <id>https://yuanzi222.com/Eureka比Zookeeper好在哪里.html</id>
     <published>2017-09-08T01:45:12.000Z</published>
-    <updated>2020-01-02T09:29:53.836Z</updated>
+    <updated>2020-01-07T08:48:25.262Z</updated>
     
     <summary type="html">
     
@@ -152,6 +181,32 @@
   </entry>
   
   <entry>
+    <title>后端Long类型过大时返回前端js会丢失精度问题的解决办法</title>
+    <link href="https://yuanzi222.com/%E5%90%8E%E7%AB%AFLong%E7%B1%BB%E5%9E%8B%E8%BF%87%E5%A4%A7%E6%97%B6%E8%BF%94%E5%9B%9E%E5%89%8D%E7%AB%AFjs%E4%BC%9A%E4%B8%A2%E5%A4%B1%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html"/>
+    <id>https://yuanzi222.com/后端Long类型过大时返回前端js会丢失精度问题的解决办法.html</id>
+    <published>2017-08-02T03:26:12.000Z</published>
+    <updated>2019-12-30T10:02:31.211Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="Java" scheme="https://yuanzi222.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Linux SSH各配置项详解</title>
     <link href="https://yuanzi222.com/Linux%20SSH%E5%90%84%E9%85%8D%E7%BD%AE%E9%A1%B9%E8%AF%A6%E8%A7%A3.html"/>
     <id>https://yuanzi222.com/Linux SSH各配置项详解.html</id>
@@ -175,32 +230,6 @@
     
     
       <category term="Linux" scheme="https://yuanzi222.com/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后端Long类型过大时返回前端js会丢失精度问题的解决办法</title>
-    <link href="https://yuanzi222.com/%E5%90%8E%E7%AB%AFLong%E7%B1%BB%E5%9E%8B%E8%BF%87%E5%A4%A7%E6%97%B6%E8%BF%94%E5%9B%9E%E5%89%8D%E7%AB%AFjs%E4%BC%9A%E4%B8%A2%E5%A4%B1%E7%B2%BE%E5%BA%A6%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html"/>
-    <id>https://yuanzi222.com/后端Long类型过大时返回前端js会丢失精度问题的解决办法.html</id>
-    <published>2017-08-02T03:26:12.000Z</published>
-    <updated>2019-12-30T10:02:31.211Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
-    
-    
-      <category term="Java" scheme="https://yuanzi222.com/tags/Java/"/>
     
   </entry>
   

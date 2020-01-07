@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yuanzi222.com/SpringBoot%E6%95%B4%E5%90%88%E9%98%BF%E9%87%8CRocketMQ.html</loc>
+    
+    <lastmod>2020-01-07T08:51:01.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yuanzi222.com/Eureka%E6%AF%94Zookeeper%E5%A5%BD%E5%9C%A8%E5%93%AA%E9%87%8C.html</loc>
+    
+    <lastmod>2020-01-07T08:48:25.262Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yuanzi222.com/SpringCloud%E6%B3%A8%E8%A7%A3.html</loc>
     
     <lastmod>2020-01-04T08:58:23.166Z</lastmod>
@@ -68,13 +82,6 @@
     <loc>https://yuanzi222.com/tags/index.html</loc>
     
     <lastmod>2020-01-02T09:33:10.094Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yuanzi222.com/Eureka%E6%AF%94Zookeeper%E5%A5%BD%E5%9C%A8%E5%93%AA%E9%87%8C.html</loc>
-    
-    <lastmod>2020-01-02T09:29:53.836Z</lastmod>
     
   </url>
   
