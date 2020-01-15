@@ -381,6 +381,33 @@
   </entry>
   
   <entry>
+    <title>Java将Office文件转换为PDF文件的三种方法</title>
+    <link href="https://yuanzi222.com/Java%E5%B0%86Office%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BAPDF%E6%96%87%E4%BB%B6%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E6%B3%95.html"/>
+    <id>https://yuanzi222.com/Java将Office文件转换为PDF文件的三种方法.html</id>
+    <published>2016-10-15T03:49:13.000Z</published>
+    <updated>2020-01-15T07:48:39.167Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;方法1.poi读取doc + itext生成pdf （实现最方便，效果最差，跨平台）&lt;br&gt;方法2.jodconverter + openOffice （一般格式实现效果还行，复杂格式容易有错位，跨平台）&lt;br&gt;方法3.jacob +
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="Office转PDF" scheme="https://yuanzi222.com/tags/Office%E8%BD%ACPDF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Markdown代码块支持的语言</title>
     <link href="https://yuanzi222.com/Markdown%E4%BB%A3%E7%A0%81%E5%9D%97%E6%94%AF%E6%8C%81%E7%9A%84%E8%AF%AD%E8%A8%80.html"/>
     <id>https://yuanzi222.com/Markdown代码块支持的语言.html</id>
