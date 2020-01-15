@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[经典语录--2020-01-15]]></title>
+    <url>%2F%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95--2020-01-15.html</url>
+    <content type="text"><![CDATA[本文摘抄自公众号 stormzhang 你永远赚不到超出你认知范围外的钱除非你靠运气但是靠运气赚到的钱最后往往又会靠实力亏掉这是一种必然 你所赚的每一分钱都是你对这个世界认知的变现你所亏的每一分钱都是因为对这个世界认知有缺陷 这个世界最大的公平在于当一个人的财富大于自己认知的时候这个社会有100种方法收割你 直到你的认知和财富相匹配为止]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[SpringBoot整合阿里RocketMQ]]></title>
     <url>%2FSpringBoot%E6%95%B4%E5%90%88%E9%98%BF%E9%87%8CRocketMQ.html</url>
     <content type="text"><![CDATA[Git仓库地址：https://github.com/yuanzi222/rocketmq-service.git RocketMQ相关说明可以查看阿里官方文档：https://help.aliyun.com/document_detail/29532.html?spm=a2c4g.11186623.6.542.62ca4fedZtSUO8 SpringBoot整合阿里RocketMQ1.pom.xml引入依赖&lt;dependency> &lt;groupId>com.tft&lt;/groupId> &lt;artifactId>mq&lt;/artifactId> &lt;version>1.0.0-SNAPSHOT&lt;/version> &lt;/dependency> 2.配置文件中添加相应配置# rocketmq config # 阿里云账号管理控制台中创建的 AccessKey，用于身份认证 rocketmq.accessKey= # 阿里云账号管理控制台中创建的 SecretKey，用于身份认证 rocketmq.secretKey= # 组id rocketmq.groupId= # 公网接入点 rocketmq.namesrvAddr= # 消息主题 rocketmq.topic= 3.消息发送方只需要在相应类中注入RocketMQTemplate@RestController public class RocketMQDemoController { @Value("${rocketmq.topic}") private String topic; private static final String WECHAT_MSG_SEND = "wechatMsgSend"; @Autowired private RocketMQTemplate rocketMQTemplate; @RequestMapping("/demo.json") public String demo(String msg) { MessageEvent messageEvent = new MessageEvent(); messageEvent.setTopic(topic); messageEvent.setTag(WECHAT_MSG_SEND); messageEvent.setMsg(msg); rocketMQTemplate.sendAsync(messageEvent); return "ok"; } } 4.消息消费方监听处理类实现，继承AbstractMessageListener类，实现handle方法即可@Service @RocketMQMessageListener(topic = "TEST") public class RocketMQListenerDemo extends AbstractMessageListener { @Override public void handle(String msg, String msgId, String tag) { switch (tag) { case MqTagConstants.WECHAT_MSG_SEND: // 消费消息业务逻辑 System.err.println("消费消息:" + msg); break; default: break; } } } 注意：消息队列 RocketMQ 里的一个消费者 Group ID 代表一个 Consumer 实例群组。 对于大多数分布式应用来说，一个消费者 Group ID 下通常会挂载多个 Consumer 实例。 订阅关系一致指的是同一个消费者 Group ID 下所有 Consumer 实例的处理逻辑必须完全一致。 一旦订阅关系不一致，消息消费的逻辑就会混乱，甚至导致消息丢失。 由于消息队列 RocketMQ 的订阅关系主要由 Topic+Tag 共同组成，因此，保持订阅关系一致意味着同一个消费者 Group ID 下所有的实例需在以下两方面均保持一致： 订阅的 Topic 必须一致； 订阅的 Topic 中的 Tag 必须一致。]]></content>
