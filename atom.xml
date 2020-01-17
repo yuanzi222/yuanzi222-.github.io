@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yuanzi222.com/"/>
-  <updated>2020-01-15T08:20:35.567Z</updated>
+  <updated>2020-01-17T08:40:51.438Z</updated>
   <id>https://yuanzi222.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>RocketMQ入门总结</title>
+    <link href="https://yuanzi222.com/RocketMQ%E5%85%A5%E9%97%A8%E6%80%BB%E7%BB%93.html"/>
+    <id>https://yuanzi222.com/RocketMQ入门总结.html</id>
+    <published>2020-01-17T07:25:58.000Z</published>
+    <updated>2020-01-17T08:40:51.438Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文由 FrancisQ 老哥投稿！&lt;br&gt;原文地址：&lt;a href=&quot;https://juejin.im/post/5df0825b51882512420af94a&quot; rel=&quot;external nofollow noopener
+        
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://yuanzi222.com/categories/Java/"/>
+    
+    
+      <category term="RocketMQ" scheme="https://yuanzi222.com/tags/RocketMQ/"/>
+    
+  </entry>
   
   <entry>
     <title>经典语录--2020-01-15</title>
@@ -48,7 +75,7 @@
     <link href="https://yuanzi222.com/SpringBoot%E6%95%B4%E5%90%88%E9%98%BF%E9%87%8CRocketMQ.html"/>
     <id>https://yuanzi222.com/SpringBoot整合阿里RocketMQ.html</id>
     <published>2019-12-12T07:17:12.000Z</published>
-    <updated>2020-01-09T06:31:54.678Z</updated>
+    <updated>2020-01-17T08:55:45.590Z</updated>
     
     <summary type="html">
     
@@ -267,7 +294,7 @@
     <link href="https://yuanzi222.com/%E5%86%99%E7%BB%9925%E5%B2%81%E7%9A%84%E4%BD%A0%E5%92%8C%E6%88%91%E2%80%94%E2%80%9490%E5%90%8E%E8%87%AA%E7%99%BD.html"/>
     <id>https://yuanzi222.com/写给25岁的你和我——90后自白.html</id>
     <published>2017-07-26T03:09:12.000Z</published>
-    <updated>2020-01-02T09:29:26.823Z</updated>
+    <updated>2020-01-17T08:56:32.960Z</updated>
     
     <summary type="html">
     
